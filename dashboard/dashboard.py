@@ -5,7 +5,7 @@ import streamlit as st
 
 sns.set(style='dark')
 
-all_df = pd.read_csv('all_data.csv')
+all_df = pd.read_csv('./dashboard/all_data.csv')
 
 st.title("Bike Sharing Data Analysis")
 st.markdown("### Questions")
